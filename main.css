@@ -13,6 +13,17 @@
 #menu,
 #sidebar {
   background-color: #e9ebee;
+  overflow-x: hidden;
+}
+
+#main::-webkit-scrollbar
+{
+  display: none;
+}
+
+#sidebar::-webkit-scrollbar
+{
+  display: none;
 }
 
 #header {
