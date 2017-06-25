@@ -7,14 +7,10 @@
 #menu,
 #sidebar {
   height: 600px;
-}
-
-#main,
-#menu,
-#sidebar {
   background-color: #e9ebee;
   overflow-x: hidden;
 }
+
 
 #main::-webkit-scrollbar
 {
@@ -125,13 +121,14 @@
 
 #main
 {
+  overflow-x: hidden;
   overflow: auto;
 }
 
 #sidebar
 {
   overflow: auto !important;
-overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .nav-stacked .glyphicon
@@ -154,4 +151,15 @@ overflow-x: hidden;
 .input-group
 {
   margin-top: 5px !important;
+}
+
+.post-time-date
+{
+  color: gray;
+
+}
+
+.padding
+{
+  padding-left: 5px;
 }
