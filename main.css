@@ -159,7 +159,8 @@
 
 }
 
-.padding
+.video-height
 {
-  padding-left: 5px;
+  height: 300px !important;
+
 }
